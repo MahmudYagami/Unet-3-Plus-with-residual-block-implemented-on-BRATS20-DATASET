@@ -22,16 +22,10 @@ Data preprocessing and augmentation for improved generalization
 
 TensorFlow/Keras-based implementation
 
-Installation
-Clone the repository:
-git clone https://github.com/MahmudYagami/Unet-3-Plus-with-residual-block-implemented-on-BRATS20-DATASET.git
-Install dependencies:
-pip install -r requirements.txt
-Ensure the BRATS 2020 dataset is available in the correct path.
-Run the Jupyter Notebook to train and evaluate the model:
-jupyter notebook unet-3+residual_block.ipynb
 Model Performance
 The model is designed to improve segmentation performance by leveraging residual connections in the UNet-3+ architecture. Performance metrics such as Dice coefficient, IoU, and Accuracy can be evaluated after training.
+
+Here is link of my kaggale Notebook: https://www.kaggle.com/code/rickymahmud/unet-3-res
 
 Acknowledgments
 This project is based on research in medical image segmentation and utilizes deep learning techniques for tumor detection.
